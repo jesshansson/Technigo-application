@@ -1,0 +1,66 @@
+/* Example styling of a h1 element */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+body {
+  background-color: #d7c6cf;
+  font-family: "Lato", sans-serif;
+  padding: 50px 
+}
+
+.div1 {
+  background-color: #ebdada;
+  border-radius: 10px;
+  color: rgb(198, 118, 118);
+  border: solid 1px rgb(198, 118, 118);
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+}
+
+.div2 {
+  background-color: #ebdada;
+  border-radius: 10px;
+  color: rgb(198, 118, 118);
+  border: solid 1px rgb(198, 118, 118);
+  padding: 10px;
+  margin: auto;
+  width: 60%;
+
+}
+
+.pic{
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  height: 200px;
+  margin: 20px;
+  border-radius: 25px;
+}
+
+.links {
+  width: 40%;
+  height: 60%;
+  margin: auto;
+  background-color:#ebdada;
+  border-radius: 10px;
+  font-family: 'Inconsolata', monospace;
+  color: rgb(156, 73, 73);
+  padding: 20px;
+  border: solid 1px rgb(198, 118, 118);
+}
+
+a:link {color: rgb(95, 36, 65);
+}
+
+a:visited {
+  color: rgb(71, 13, 13);
+}
+
+a:hover {
+  color: rgb(192, 94, 148);
+}
